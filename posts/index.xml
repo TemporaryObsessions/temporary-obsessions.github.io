@@ -6,10 +6,82 @@
     <description>Recent content in Posts on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Apr 2018 12:00:33 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 08 Apr 2018 12:49:00 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>On being intuitively obvious</title>
+      <link>https://temporaryobsessions.github.io/posts/intuitively-obvious/</link>
+      <pubDate>Sun, 08 Apr 2018 12:49:00 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/intuitively-obvious/</guid>
+      <description>&lt;p&gt;A long time ago, when I was an undergraduate, it was common to hear someone say that  idea, usually a statement in mathematics, was “intuitively obvious”. I say “statement”, because not everything so labeled was necessarily true. But it was almost always said with irony or sarcasm, as if the phrase was by then overused, cliche, and amusing.&lt;/p&gt;
+
+&lt;p&gt;Recently, however, I happened across a seemingly non-ironic use, in the book &lt;em&gt;Syntactic Structures&lt;/em&gt; by Noam Chomsky.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+Consider for example the pair of sentences&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+(103) (i)  John knew the boy studying in the library.&lt;br/&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;(ii)  John found the boy studying in the library.&lt;br/&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+It is intuitively obvious that these sentences have different grammatical structure (this becomes clear, for example, when we attempt to add “not running around in the streets” to (103)), but I do not believe that within the level of phrase structure grounds can be found for analyzing them into different constituents.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Finding this in a published book started me wondering about the origin of the phrase. With Google Books, we can poke around a bit.&lt;/p&gt;
+
+&lt;p&gt;The oldest use in a book that I could find is from &lt;em&gt;A Demonstration of Necessary Connexion&lt;/em&gt; by John Fearn, in a philosophical/theological argument against David Hume.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+All, therefore, that we have to do, to prove, &lt;em&gt;by that abstract argument&lt;/em&gt;, the being of A SELF-EXISTENT
+&lt;/p&gt;
+&lt;p&gt;
+FIRST CAUSE &lt;em&gt;of all things&lt;/em&gt;, is, to produce “an instance wherein one event must follow from another as an infallible consequence.”
+&lt;/p&gt;
+
+&lt;p&gt;
+That the first proposal of such a proof should excite as much incredulity as surprise, is to be expected. But,fortunately,the truth of the propositions is so intuitively obvious, that the slightest attention must discern t; and, from the nature of the subject, it is to be hoped that attention will be
+&lt;/p&gt;
+&lt;p&gt;
+afforded to them by every person who is in the least degree interested in general knowledge.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Other early works that show up mostly seem to be concerned with philosophy or theology. The first reference I found specifically about mathematics comes via the first volume of Charles Richardson&#39;s &lt;em&gt;A New Dictionary of the English Dictionary&lt;/em&gt;, published in 1836.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; In his dictionary, Richardson cited Dugald Stewart&#39;s &lt;em&gt;Elements of the Philosophy of the Human Mind&lt;/em&gt; &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34;&gt;5&lt;/a&gt;&lt;/sup&gt; from 1822, which includes the statement “The truth of mathematical axioms has always been supposed to be intuitively obvious.” But Stewart&#39;s work is ultimately, in fact, about philosophy, not mathematics.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m a bit suspicious about how far this gets us, because it took some focused queries to find the Chomsky quotation above; it didn&#39;t show up in the initial search results. &lt;a href=&#34;https://books.google.com/ngrams/graph?content=intuitively+obvious&amp;amp;year_start=1600&amp;amp;year_end=1825&amp;amp;corpus=15&amp;amp;smoothing=3&amp;amp;share=&amp;amp;direct_url=t1%253B%252Cintuitively%2520obvious%253B%252Cc0#t1%253B%252Cintuitively%2520obvious%253B%252Cc1&#34; title=&#34;Google Ngrams&#34;&gt;Google Ngrams&lt;/a&gt; shows the phrase first showing up in 1790, but I couldn&#39;t persuade it to show me the actual citation, and Wired has previously reported on &lt;a href=&#34;https://www.wired.com/2015/10/pitfalls-of-studying-language-with-google-ngram/&#34; title=&#34;The Pitfalls of Using Google Ngram to Study Language&#34;&gt;The Pitfalls of Using Google Ngram to Study Language&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Chomsky&#39;s &lt;em&gt;Syntactic Structures&lt;/em&gt; is, in large part, brought some mathematical methods of reasoning to linguistics, at a time when much linguistic thinking still relied on intuitions about language and how it works. But in the time between &lt;em&gt;Syntactic Structures&lt;/em&gt; and the early 1980s, I suspect that the ironic usage of “intuitively obvious” emerged as intuition fell away as a basis for knowledge. Of course, intuition is often essential for new discoveries and insights in science and mathematics, but the intuition must be confirmed (or disproved) by other, more reliable, means. In any case, what is “obvious” to one person is often not “obvious” to another.&lt;/p&gt;
+
+&lt;p&gt;As one might expect, the trail on historical usage on a term like this usually peters out into an ocean of antecedents, many of which we will never recover. Nevertheless, it seems interesting to find records of a time when “intuitively obvious” was used earnestly, without the sarcastic flavor it often carries today.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:5&#34;&gt;Although I do not rule out that the possibility that Chomsky slipped it in with a wink.] &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:5&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li id=&#34;fn:1&#34;&gt;From Noam Chomsky, &lt;em&gt;Syntactic Structures&lt;/em&gt;, Mouton, 1957 (Eleventh printing, 1975, p. 81). &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li id=&#34;fn:2&#34;&gt;&lt;a href=&#34;https://books.google.com/books?hl=en&amp;lr=&amp;id=No1bAAAAMAAJ&amp;oi=fnd&amp;pg=PA1&amp;dq=%2522intuitively+obvious%2522&amp;ots=GmKevu5vUV&amp;sig=ijR2XDMQex81o2td4NHg7kETxzo#v=onepage&amp;q=%2522intuitively%2520obvious%2522&amp;f=false&#34;&gt;A Demonstration of Necessary Connexion - John Fearn&lt;/a&gt; (London: Longman, Hurst, 1815, p. 5). &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li id=&#34;fn:3&#34;&gt;&lt;a href=&#34;https://books.google.com/books?id=wH9FAAAAcAAJ&amp;pg=RA1-PA1148&amp;dq=%2522intuitively+obvious%2522&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjf56G2lavaAhUk54MKHYyvDxM4FBDoAQgyMAI#v=onepage&amp;q=%2522intuitively%2520obvious%2522&amp;f=false&#34;&gt;A New English Dictionary of the English Language: A to K - Charles Richardson&lt;/a&gt; (London, William Pickering, 1836). Compared to Samual Johnson, Richardson included a larger and wider range of quotations from published literature along with definitions, and it has been said that Richardson&#39;s dictionary was a large part of the inspiration for the Oxford English Dictionary. On the other, Richardson was of the school that each word had exactly one meaning. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li id=&#34;fn:4&#34;&gt;&lt;a href=&#34;https://archive.org/details/elementsphiloso13stewgoog&#34;&gt;Elements of the philosophy of the human mind&lt;/a&gt; by Dugald Stewart (Albany:E. and E. Hosford, 1822). Interestingly, the scanned copy I found at the Internet Archive was scanned from Harvard&#39;s library, and was the copy “From the books in the homestead of Sarah Orne Jewett at South Berwick, Maine”, which brings things back to reading her novel &lt;em&gt;The Country of the Pointed Firs&lt;/em&gt; as an undergrad, although I don&#39;t recall the phrase “intuitively obvious” ever being used in that literature class. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:4&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>What if everyone gets over the bar?</title>

@@ -139,11 +139,14 @@ ul,ol {
 }
 
 li {
-	line-height: 1.75em;
-	margin-left: 0.75em;
-	list-style-type: none;
+    line-height: 1.75em;
+    margin-left: 0.75em;
+    list-style-type: none;
 }
 
+div.footnotes li {
+    list-style-type: decimal;
+}
 
 table {
     margin-bottom: 1.5em;

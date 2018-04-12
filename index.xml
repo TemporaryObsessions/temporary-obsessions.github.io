@@ -6,10 +6,39 @@
     <description>Recent content on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Apr 2018 10:52:46 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 12 Apr 2018 11:51:13 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emacs: Default content for a blog post</title>
+      <link>https://temporaryobsessions.github.io/posts/emacs-auto-insert/</link>
+      <pubDate>Thu, 12 Apr 2018 11:51:13 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/emacs-auto-insert/</guid>
+      <description>&lt;p&gt;I wanted to configure Emacs to automatically insert a template for particular kinds of files, but only in certain directories. All of the machinery for this exists, but it doesn&#39;t quite seem to be all connected together.&lt;/p&gt;
+
+&lt;p&gt;The starting point is &lt;code&gt;auto-insert&lt;/code&gt;, which provides a simple template mechanism to insert text into a file when it is first created. The template language can also execute Lisp expressions, making it possible to insert dynamic data as well.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s the basic setup for an org-mode template for a blog post using Hugo (which is why we have to fix up the timezone in the date string):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-emacs-lisp&#34;&gt;(define-auto-insert &#39;org-mode
+  &#39;(&amp;quot;Blog post header&amp;quot;
+    &amp;quot;#+TITLE: &amp;quot; - &amp;quot;\n&amp;quot;
+    &amp;quot;#+DATE: &amp;quot;
+    (format-time-string &amp;quot;%FT%T%z&amp;quot;)
+    ;; Fix the timezone format for Hugo
+    -2
+    &amp;quot;:00&amp;quot;
+    &amp;quot;\n\n&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This assumes that &lt;code&gt;auto-insert-mode&lt;/code&gt; is enabled, and that &lt;code&gt;auto-insert-query&lt;/code&gt; is configured to ask for confirmation, since I don&#39;t want to do this in all Org files.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll add the per-directory part later.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Podcast list as of 4/11/2018</title>

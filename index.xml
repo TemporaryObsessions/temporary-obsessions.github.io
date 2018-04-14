@@ -6,17 +6,47 @@
     <description>Recent content on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Apr 2018 11:14:20 -0400</lastBuildDate>
+    <lastBuildDate>Sat, 14 Apr 2018 14:12:00 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Time to delete Facebook</title>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/deleting-facebook/</link>
+      <pubDate>Sat, 14 Apr 2018 14:12:00 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/deleting-facebook/</guid>
+      <description>&lt;p&gt;Facebook has been in the news a lot lately, in the wake of how Cambridge Analytica used and abused data gathered about Facebook users. Earlier this week, Facebook CEO Mark Zuckerberg testified before Congress.&lt;/p&gt;
+
+&lt;p&gt;The big picture is complicated, and unlikely to be resolved any time soon. There are questions about antitrust, free speech, the nature of advertising, how to regulate data privacy. In the U.S., it&#39;s not clear where regulatory jurisdiction lies, or how to construct beneficial regulations that don&#39;t create their own problems in how we can use the Internet well.&lt;/p&gt;
+
+&lt;p&gt;So, as one of two billion people caught up in how Facebook treats our data, what can I do?&lt;/p&gt;
+
+&lt;p&gt;The options are pretty stark. Facebook&#39;s privacy settings are confusing at best, and likely misleading, whether intentionally or not. I cannot be sure of what data Facebook is collecting, how it is doing that, or how that data will be used. I cannot be sure that Facebook would refrain from the using data already collected in some new way that they come up with in the future. I have no insight into what the value of my data to Facebook is, so that I could make a pseudo-economic decision about using Facebook.&lt;/p&gt;
+
+&lt;p&gt;For me, Facebook simply has no credibility about respecting the use of the personal data it collects.&lt;/p&gt;
+
+&lt;p&gt;Which means the choices are to accept the continuing surveillance without any real control over it, or to quit Facebook altogether.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t really use Facebook that much, because the data issues have been visible for a long time. But I have continued to accept the notion that I might want to, for the communication it in theory provides with my &#34;friends&#34;. And that includes some family members, and I have been loath to cut that off, even as, in actuality, I rarely take advantage of that.&lt;/p&gt;
+
+&lt;p&gt;I also know that, whatever I do, I am simply one person out of two billion. Facebook won&#39;t notice. Since I&#39;m not present on Facebook that much, probably few people will notice, much less care.&lt;/p&gt;
+
+&lt;p&gt;Nevertheless, it&#39;s time to delete Facebook. Dealing with a huge company I can&#39;t trust is not for me.&lt;/p&gt;
+
+&lt;p&gt;I can&#39;t say what the right decision for anyone else is. But I think it&#39;s worth thinking hard about whether the value Facebook has for you is more than the unknown cost of what Facebook takes from you.&lt;/p&gt;
+
+&lt;p&gt;What is more disturbing is that even deleting your Facebook account doesn&#39;t remove you from its sights, as thousands of web sites are also enlisted in its data collection, whether they realize it or not. Figuring out what I can do about that is the next challenge.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Some respect for Paul Ryan</title>
-      <link>https://temporaryobsessions.github.io/posts/some-respect-for-paul-ryan/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/some-respect-for-paul-ryan/</link>
       <pubDate>Fri, 13 Apr 2018 11:14:20 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/some-respect-for-paul-ryan/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/some-respect-for-paul-ryan/</guid>
       <description>&lt;p&gt;A couple of days ago, Paul Ryan announced that he is not running for re-election. Much ink has been spilled, many pixels have been darkened, and unending TV time has been spent talking about the &#34;real reasons&#34; that he is stepping down. Retiring to &#34;spend more time with my family&#34; is such a cliched cover for other motivations that perhaps it&#39;s hard to imagine that it could be real.&lt;/p&gt;
 
 &lt;p&gt;Ryan has three teenage children, and in his announcement, he said &#34;I know if I spend another term, they will only know me as a weekend father,&#34; and he didn&#39;t want to look back at having missed that time. As a father of three children looking at the trailing end of teenage years, I am grateful for the time I have had to spend with them during that time. I wouldn&#39;t have missed it for anything, not even a powerful job in Washington (not that such a job has ever been in my career plans).&lt;/p&gt;
@@ -33,10 +63,10 @@
     
     <item>
       <title>Emacs: Default content for a blog post</title>
-      <link>https://temporaryobsessions.github.io/posts/emacs-auto-insert/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/emacs-auto-insert/</link>
       <pubDate>Thu, 12 Apr 2018 11:51:13 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/emacs-auto-insert/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/emacs-auto-insert/</guid>
       <description>&lt;p&gt;I wanted to configure Emacs to automatically insert a template for particular kinds of files, but only in certain directories. All of the machinery for this exists, but it doesn&#39;t quite seem to be all connected together.&lt;/p&gt;
 
 &lt;p&gt;The starting point is &lt;code&gt;auto-insert&lt;/code&gt;, which provides a simple template mechanism to insert text into a file when it is first created. The template language can also execute Lisp expressions, making it possible to insert dynamic data as well.&lt;/p&gt;
@@ -62,10 +92,10 @@
     
     <item>
       <title>Podcast list as of 4/11/2018</title>
-      <link>https://temporaryobsessions.github.io/posts/podcast-list/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/podcast-list/</link>
       <pubDate>Wed, 11 Apr 2018 10:52:46 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/podcast-list/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/podcast-list/</guid>
       <description>&lt;p&gt;Here&#39;s a list of the podcasts I currently have in my rotation, within the constraint of getting through them in a week. No claims about these being the &#34;best&#34; podcasts, just what I&#39;m listening to now.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://99percentinvisible.org/&#34; title=&#34;99% Invisible&#34;&gt;99% Invisible&lt;/a&gt;: A podcast about design, mostly invisible, that shapes our experience of the world. Hosted by Roman Mars, who has possibly the best podcast voice in podcasting.&lt;/p&gt;
@@ -100,10 +130,10 @@
     
     <item>
       <title>Coming back to podcasts</title>
-      <link>https://temporaryobsessions.github.io/posts/coming-back-to-podcasts/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/coming-back-to-podcasts/</link>
       <pubDate>Tue, 10 Apr 2018 12:04:07 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/coming-back-to-podcasts/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/coming-back-to-podcasts/</guid>
       <description>&lt;p&gt;Yesterday I wrote about &lt;a href=&#34;https://temporaryobsessions.github.io/posts/giving-up-podcasts/&#34; title=&#34;giving up podcasts&#34;&gt;giving up podcasts&lt;/a&gt;. For a long time, I liked the feeling of a less-cluttered mind, which seemed to be correlated with taking that step. But I still missed them. Partly it was from the random incompletions of listening to the radio in the car. Mostly it was missing some of my favorite voices, bringing some perspectives that I don&#39;t otherwise get to hear.&lt;/p&gt;
 
 &lt;p&gt;A couple of weeks ago, I started bringing some back, slowly. Adding one at a time, catching up on the last three episodes, just to see if I still wanted to hear that voice. My current rule is to add only as many as I can get through in a week. I don&#39;t want to re-create the backlog, with its pressure to listen, that I had before. And I&#39;m trying to keep a little bit of diversity of voice and topic in the collection.&lt;/p&gt;
@@ -118,10 +148,10 @@
     
     <item>
       <title>On giving up podcasts</title>
-      <link>https://temporaryobsessions.github.io/posts/giving-up-podcasts/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/giving-up-podcasts/</link>
       <pubDate>Mon, 09 Apr 2018 10:39:06 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/giving-up-podcasts/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/giving-up-podcasts/</guid>
       <description>&lt;p&gt;Last fall, I gave up podcasts. Cold turkey.&lt;/p&gt;
 
 &lt;p&gt;It was Manoush&#39;s fault. &lt;a href=&#34;http://www.manoushz.com/&#34; title=&#34;Manoush Zomorodi&#34;&gt;Manoush Zomorodi&lt;/a&gt; hosts the WYNC podcast &#34;&lt;a href=&#34;https://www.wnycstudios.org/shows/notetoself&#34; title=&#34;Note to Self&#34;&gt;Note to Self&lt;/a&gt;&#34;, about life with modern technology. She did a series on the show did called &#34;Bored and Brilliant&#34; that turned into a &lt;a href=&#34;http://www.manoushz.com/book/&#34; title=&#34;book with the same name.&#34;&gt;book with the same name.&lt;/a&gt;&lt;/p&gt;
@@ -160,10 +190,10 @@
     
     <item>
       <title>On being intuitively obvious</title>
-      <link>https://temporaryobsessions.github.io/posts/intuitively-obvious/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/intuitively-obvious/</link>
       <pubDate>Sun, 08 Apr 2018 12:49:00 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/intuitively-obvious/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/intuitively-obvious/</guid>
       <description>&lt;p&gt;A long time ago, when I was an undergraduate, it was common to hear someone say that  idea, usually a statement in mathematics, was “intuitively obvious”. I say “statement”, because not everything so labeled was necessarily true. But it was almost always said with irony or sarcasm, as if the phrase was by then overused, cliche, and amusing.&lt;/p&gt;
 
 &lt;p&gt;Recently, however, I happened across a seemingly non-ironic use, in the book &lt;em&gt;Syntactic Structures&lt;/em&gt; by Noam Chomsky.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -232,10 +262,10 @@ afforded to them by every person who is in the least degree interested in genera
     
     <item>
       <title>What if everyone gets over the bar?</title>
-      <link>https://temporaryobsessions.github.io/posts/everyone-over-the-bar/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/everyone-over-the-bar/</link>
       <pubDate>Sat, 07 Apr 2018 12:00:33 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/everyone-over-the-bar/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/everyone-over-the-bar/</guid>
       <description>&lt;p&gt;Suppose a school had a basketball team, and the coach of the team worked to challenge every player to be the best they could be. Maybe even better. The players developed skills at all positions, and everyone played. There was no regular, default starting lineup, because the players could be selected at random to form a group of five who could play together, and win games, as a team. The players are excited to be there, they work hard together, and they cheer each other on. And they all get to play.&lt;/p&gt;
 
 &lt;p&gt;And they win a lot of their games. Often a championship. Not alwayshttps://gohugo.io/content-management/formats/, but mostly.&lt;/p&gt;
@@ -260,10 +290,10 @@ afforded to them by every person who is in the least degree interested in genera
     
     <item>
       <title>That great idea I had</title>
-      <link>https://temporaryobsessions.github.io/posts/that-great-idea-i-had/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/that-great-idea-i-had/</link>
       <pubDate>Fri, 06 Apr 2018 11:22:56 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/that-great-idea-i-had/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/that-great-idea-i-had/</guid>
       <description>&lt;p&gt;This is a post about a great idea I had while I was out for a walk yesterday.&lt;/p&gt;
 
 &lt;p&gt;Unfortunately, it&#39;s only &lt;em&gt;about&lt;/em&gt; the idea. I&#39;m not exploring the idea itself.&lt;/p&gt;
@@ -290,10 +320,10 @@ afforded to them by every person who is in the least degree interested in genera
     
     <item>
       <title>Who do you want to be?</title>
-      <link>https://temporaryobsessions.github.io/posts/students-who-do-you-want-to-be/</link>
+      <link>https://temporaryobsessions.github.io/posts/2018/04/students-who-do-you-want-to-be/</link>
       <pubDate>Thu, 05 Apr 2018 11:48:13 -0400</pubDate>
       
-      <guid>https://temporaryobsessions.github.io/posts/students-who-do-you-want-to-be/</guid>
+      <guid>https://temporaryobsessions.github.io/posts/2018/04/students-who-do-you-want-to-be/</guid>
       <description>&lt;p&gt;A high school principal I know told a story told to her by another principal. It was approximately:&lt;/p&gt;
 
 &lt;blockquote&gt;

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Slow reading</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Slow reading">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Slow reading">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://temporaryobsessions.github.io/posts/2018/04/slow-reading/">
+	<meta name="og:site_name" content="Slow reading">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://temporaryobsessions.github.io/css/style.css">
+	
+	
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+
+<header>
+	
+	<a href="https://temporaryobsessions.github.io/" style="float: left;color:#777;"><strong>Temporary Obsessions</strong></a>
+	
+	
+	
+	
+	
+	<a href="https://temporaryobsessions.github.io/index.xml" style="color:#777;float: right;"><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></strong></a>
+</header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+      el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+  <h1>Slow reading <aside></aside></h1>
+  <p>Yesterday I mentioned the book <em><a href="https://amzn.to/2JKX3j3" title="Slow Reading in a Hurried Age">Slow Reading in a Hurried Age</a></em> by David Mikics, a professor at the University of Houston. In it, Mikics argues that reading on screens today conditions us to read quickly, to skim, to snag headlines but not depth. All of which gets in the way of reading deeply, particularly literature. In 2014, he published an op-ed, "<a href="https://www.nytimes.com/2014/01/04/opinion/in-praise-of-offline-slow-reading.html" title="In Praise of (Offline) Slow Reading">In Praise of (Offline) Slow Reading</a>," in the New York Times in 2014, which argues for the value of reading in this way.</p>
+
+<p>In many ways, this book is a literature class that I never quite had. Mikics gives us fourteen "rules" to guide reading of a work literary work, explaining what to look for as we slow down, what to pay attention to notice themes, symbols, subtext—all the things that too many English teachers tell students to find without giving much guidance in how one is supposed to do that.</p>
+
+<p>In his writing, Mikics invites us to slow down in reading his own book. This is not an easy effect. He writes clearly. What slows me down in reading it is not a ponderousness of language, but density, in the best possible way. The sentences provide much to ponder, and the words flow gently but deliberately, like a powerful, slow-moving river. This is the pacing he wants us to achieve with literature: appreciating and attending to the language, the story, the subtext, the mood.</p>
+
+<p><em>Slow Reading in a Hurried Age</em> is a call to read with more attention, more understanding, and more enjoyment. Definitely worth a try.</p>
+
+</div>
+
+
+
+
+<footer>
+	<p>© 2017-2018, all rights reserved.</a>
+</footer>
+</body>
+</html>

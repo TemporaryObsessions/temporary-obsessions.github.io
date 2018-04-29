@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Traveling lighter</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Traveling lighter">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Traveling lighter">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://temporaryobsessions.github.io/posts/2018/04/traveling-lighter/">
+	<meta name="og:site_name" content="Traveling lighter">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://temporaryobsessions.github.io/css/style.css">
+	
+	
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+
+    <header>
+	
+	<a href="https://temporaryobsessions.github.io/" style="float: left;color:#777;"><strong>Temporary Obsessions</strong></a>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://temporaryobsessions.github.io/archives/" style="color:#777;"><strong>Archives</strong></a>
+	
+	
+	
+	<a href="https://temporaryobsessions.github.io/index.xml" style="color:#777;float: right;"><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></strong></a>
+    </header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+      el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+  <h1>Traveling lighter <aside></aside></h1>
+  <p>I've spent a fair bit of time over the past few days thinking about how and what to pack for traveling, and sometimes it seems like <em>too</em> much time. Compared to some people, I don't travel that much. I may well be putting more time into thinking about it than I will ever recoup. Why bother?</p>
+
+<p>The main reason, of course, is that traveling lighter means carrying less stuff, which is easier, less tiring, and less stressful in trying to get my stuff somewhere. A second reason is that I often don't really need everything I bring anyway. I carry quite a few things "just in case", and those cases rarely happen. Even if they did, I could almost certainly deal with the situation.</p>
+
+<p>And, perhaps in a strange way, optimization problems are fun, at least for some of us. The challenge of doing more with less is intriguing, even if it seems trivial.</p>
+
+<p>Last year I replaced my backpack--one I had been using for more years than I can remember. The one I got is smaller, and intentionally so. When I decided on it, after considerable research and looking at backpacks, I imagined my experience was likely to be: first, I'd be very happy with it almost all the time; second, I'd be occasionally annoyed that I couldn't put another book, magazine, or small set of papers in it; and third, I could get along with that extra stuff just fine. And pretty much, that's been how I feel about it. When I took all the regular items out of the old backpack, many of them didn't go in to the new one. In a way, right now I'm just going through the same process.</p>
+
+<p>Also, <a href="http://tombihn.com" title="Tom Bihn">Tom Bihn</a> has some really nice bags, backpacks, and travel accessories.</p>
+
+</div>
+
+
+
+
+<footer>
+	<p>© 2017-2018, all rights reserved.</a>
+</footer>
+</body>
+</html>

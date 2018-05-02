@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 21:46:23 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 23:35:32 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simple network configuration for a headless Raspberry Pi</title>
+      <link>https://temporaryobsessions.github.io/posts/2018/05/headless-raspberry-pi/</link>
+      <pubDate>Tue, 01 May 2018 23:35:32 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/2018/05/headless-raspberry-pi/</guid>
+      <description>&lt;p&gt;I have a new Raspberry Pi 3 B, and I didn&#39;t want to bother with a monitor and keyboard for it. The Internet showed me what turned out to be a fairly simple configuration if you know your way around systems, but I didn&#39;t find it all put together in one place. So here&#39;s the quick sketch:&lt;/p&gt;
+
+&lt;p&gt;The most straightforward thing was to plug an Ethernet cable between my Macbook and the Pi. On the Macbook, I could configure the wired network interface by hand, or in System Preferences, with a static IP address in a private network, like 192.168.77.1.&lt;/p&gt;
+
+&lt;p&gt;For a brand-new Pi, I plugged the microSD card into the Macbook USB with an adapter for the micro card. The boot partition gets mounted on the Mac, so I edited &lt;code&gt;cmdline.txt&lt;/code&gt; to include &lt;code&gt;ip=192.168.77.2&lt;/code&gt;. I also created an empty file called &lt;code&gt;ssh&lt;/code&gt;, which causes the Pi to run an ssh daemon one time at boot.&lt;/p&gt;
+
+&lt;p&gt;Boot the system, then ssh from the Mac to the Pi using the numeric IP address. Change the default password, and turn on the ssh daemon with &lt;code&gt;raspi-config&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;That&#39;s it. The Macbook and the Pi talk to each other just fine, which is good for local hacking. The next step is to set it up on the WiFi, but because I can get its wireless MAC address, I can set a fixed address in my DHCP server, and then it can just sit on the network.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Do nations have a right to exclude?</title>

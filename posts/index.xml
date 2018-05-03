@@ -6,10 +6,22 @@
     <description>Recent content in Posts on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 23:35:32 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 11:26:46 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Polyphonic overtone singing</title>
+      <link>https://temporaryobsessions.github.io/posts/2018/05/overtone-singing/</link>
+      <pubDate>Wed, 02 May 2018 11:26:46 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/2018/05/overtone-singing/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://languagelog.ldc.upenn.edu/nll/&#34; title=&#34;Language Log&#34;&gt;Language Log&lt;/a&gt; is a great blog about language. Unfortunately, I can&#39;t keep with it. But one post recently caught my attention, because it links to a fascinating video about polyphonic overtone singing.&lt;/p&gt;
+
+&lt;p&gt;See the whole thing at &lt;a href=&#34;http://languagelog.ldc.upenn.edu/nll/?p=37785&#34; title=&#34;Polyphonic Overtone Singing&#34;&gt;Polyphonic Overtone Singing&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Simple network configuration for a headless Raspberry Pi</title>

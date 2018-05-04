@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 May 2018 11:26:46 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 23:23:35 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The tangible Raspberry Pi</title>
+      <link>https://temporaryobsessions.github.io/posts/2018/05/tangible-raspberry-pi/</link>
+      <pubDate>Thu, 03 May 2018 23:23:35 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/2018/05/tangible-raspberry-pi/</guid>
+      <description>&lt;p&gt;One of the interesting things about the Raspberry Pi is that it makes the computer more concrete for many people. Unlike our laptops, phones, and laptops, you can see the circuit board. There aren&#39;t very many components, so it seems more understandable. It&#39;s not off in a cloud somewhere; it&#39;s right there in your hand.&lt;/p&gt;
+
+&lt;p&gt;This seems to be true for both the technically-inclined and those who consider themselves less so. For the former, a common reaction seems to be &#34;Hmm...what interesting things could I do with this inexpensive, hackable little computer?&#34; For the latter, it seems to open up a possibility: &#34;Maybe this is something I can understand.&#34;&lt;/p&gt;
+
+&lt;p&gt;I think this is particularly true when using ssh to it, or just the shell with a monitor and keyboard attached. The complexity is stripped away. You are looking at the raw, seething power of the machine, awaiting your commands. It is yours to control.&lt;/p&gt;
+
+&lt;p&gt;It&#39;s the same feeling evoked by the Apple II. There was power there, for you to control. And simple enough that you might be able to understand it.&lt;/p&gt;
+
+&lt;p&gt;Yes, of course, the Raspberry Pi is much more complicated than that. But computing now is very complicated. For a newcomer, it can seem enormously confusing and unapproachable. The peek at magic that you might be able to control yourself is a powerful attraction.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Polyphonic overtone singing</title>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>The art of app update notes</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="The art of app update notes">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="The art of app update notes">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://temporaryobsessions.github.io/posts/2018/05/app-updates/">
+	<meta name="og:site_name" content="The art of app update notes">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://temporaryobsessions.github.io/css/style.css">
+	
+	
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+
+    <header>
+	
+	<a href="https://temporaryobsessions.github.io/" style="float: left;color:#777;"><strong>Temporary Obsessions</strong></a>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://temporaryobsessions.github.io/archives/" style="color:#777;"><strong>Archives</strong></a>
+	
+	
+	
+	<a href="https://temporaryobsessions.github.io/index.xml" style="color:#777;float: right;"><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></strong></a>
+    </header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+      el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+  <h1>The art of app update notes <aside></aside></h1>
+  <p>Many corners of the Internet spawn new little art forms, and one of them now is the app update messages in the iOS App Store. Each update can include some notes about what changed, and the first two lines are shown in the listing of available updates.</p>
+
+<p>Most messages say things like "Bug fixes and improvements" or "This update contains stability and performance improvements". More substantial updates may have a list of some new features, or maybe some details about the bugs fixed or the performance that has been enhanced.</p>
+
+<p>A few app developers take advantage of those two lines. Often it's a message that reinforces the marketing. Waze, for example, often says something like, "Fixed a few bugs so it's easier to save time and avoid traffic with Waze." Not any more informative, though.</p>
+
+<p>Medium often has a fun message, with more entertainment is after the jump. A couple of weeks ago, it was:</p>
+
+<blockquote>
+<p>
+Look, we really only write these silly updates for the shared screen shots of the app store notes.
+</p>
+
+<p>
+And these days there's one sure-fire way to get those sweet Tweets, so here we go:
+</p>
+
+<p>
+BEYONCÉ
+</p>
+</blockquote>
+
+<p>(I don't know what was up with capitalizing "Tweets".)</p>
+
+<p>Yelp has been having more fun than most. Recently,</p>
+
+<blockquote>
+<p>
+Due to a typo in the previous version's code, Yelp briefly became self-aware. We've fixed that along with a few other bugs. Please disregard any poetic, philosophical, and/or menacing messages you received from the app recently.
+</p>
+</blockquote>
+
+<p>A little creativity in the odd corners just makes things more fun.</p>
+
+</div>
+
+
+
+
+<footer>
+	<p>© 2017-2018, all rights reserved.</a>
+</footer>
+</body>
+</html>

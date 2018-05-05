@@ -6,10 +6,52 @@
     <description>Recent content in Posts on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 May 2018 23:23:35 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 04 May 2018 23:06:47 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The art of app update notes</title>
+      <link>https://temporaryobsessions.github.io/posts/2018/05/app-updates/</link>
+      <pubDate>Fri, 04 May 2018 23:06:47 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/2018/05/app-updates/</guid>
+      <description>&lt;p&gt;Many corners of the Internet spawn new little art forms, and one of them now is the app update messages in the iOS App Store. Each update can include some notes about what changed, and the first two lines are shown in the listing of available updates.&lt;/p&gt;
+
+&lt;p&gt;Most messages say things like &#34;Bug fixes and improvements&#34; or &#34;This update contains stability and performance improvements&#34;. More substantial updates may have a list of some new features, or maybe some details about the bugs fixed or the performance that has been enhanced.&lt;/p&gt;
+
+&lt;p&gt;A few app developers take advantage of those two lines. Often it&#39;s a message that reinforces the marketing. Waze, for example, often says something like, &#34;Fixed a few bugs so it&#39;s easier to save time and avoid traffic with Waze.&#34; Not any more informative, though.&lt;/p&gt;
+
+&lt;p&gt;Medium often has a fun message, with more entertainment is after the jump. A couple of weeks ago, it was:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+Look, we really only write these silly updates for the shared screen shots of the app store notes.
+&lt;/p&gt;
+
+&lt;p&gt;
+And these days there&#39;s one sure-fire way to get those sweet Tweets, so here we go:
+&lt;/p&gt;
+
+&lt;p&gt;
+BEYONCÉ
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(I don&#39;t know what was up with capitalizing &#34;Tweets&#34;.)&lt;/p&gt;
+
+&lt;p&gt;Yelp has been having more fun than most. Recently,&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;
+Due to a typo in the previous version&#39;s code, Yelp briefly became self-aware. We&#39;ve fixed that along with a few other bugs. Please disregard any poetic, philosophical, and/or menacing messages you received from the app recently.
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A little creativity in the odd corners just makes things more fun.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>The tangible Raspberry Pi</title>

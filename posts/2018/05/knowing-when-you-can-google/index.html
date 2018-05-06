@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Why bother knowing things when you can google them?</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Why bother knowing things when you can google them?">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Why bother knowing things when you can google them?">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://temporaryobsessions.github.io/posts/2018/05/knowing-when-you-can-google/">
+	<meta name="og:site_name" content="Why bother knowing things when you can google them?">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://temporaryobsessions.github.io/css/style.css">
+	
+	
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+
+    <header>
+	
+	<a href="https://temporaryobsessions.github.io/" style="float: left;color:#777;"><strong>Temporary Obsessions</strong></a>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://temporaryobsessions.github.io/archives/" style="color:#777;"><strong>Archives</strong></a>
+	
+	
+	
+	<a href="https://temporaryobsessions.github.io/index.xml" style="color:#777;float: right;"><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></strong></a>
+    </header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+      el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+  <h1>Why bother knowing things when you can google them? <aside></aside></h1>
+  <p><em>Why do we have to memorize that stuff?</em></p>
+
+<p><em>I don't need to know that, because I can look it up if I need to.</em></p>
+
+<p>In season 6, episode 2, of <em>Game of Thrones</em>, Tyrion Lannister says "That's what I do. I drink, and I know things."<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p>Tyrion sees the value of a wide variety of knowledge, and it serves him well. But in this age of Google, do we need to bother knowing things? After all, we can look them up, right?</p>
+
+<p><em>It's faster to know.</em> Looking up something on Google takes a little bit of time, quite a bit longer than knowing it. Even simple conversations would be pretty frustrating if we were googling all the time to check something.</p>
+
+<p><em>Knowledge gives you context.</em> How can we understand something without some background knowledge about the topic? On one level, that's entirely obvious. But knowing, say, the approximate dates of the American Civil War and World War II lets you deduce that Adolf Hitler wasn't alive during the Battle of Gettysburg.</p>
+
+<p><em>Knowledge helps us spot misinformation.</em> If we know something about a topic, it helps us notice when something we hear or read isn't right. Sometimes it's obvious; sometimes it's a feeling that something is wrong, and then we know what to check.</p>
+
+<p><em>Knowledge feeds creativity.</em> Creativity often comes from ideas colliding, and knowing more, especially about a wide range of topics, is the fertile soil of creation.</p>
+
+<p>We don't have to know everything, but the effort of learning--including memorization--has a real payoff.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">https://youtu.be/jcKJpceqQqk <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+</div>
+
+
+
+
+<footer>
+	<p>© 2017-2018, all rights reserved.</a>
+</footer>
+</body>
+</html>

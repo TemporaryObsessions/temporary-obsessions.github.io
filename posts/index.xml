@@ -6,10 +6,35 @@
     <description>Recent content in Posts on Temporary Obsessions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 May 2018 13:36:26 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 10 May 2018 10:50:01 -0400</lastBuildDate>
     
         <atom:link href="https://temporaryobsessions.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dedicate a window with Emacs</title>
+      <link>https://temporaryobsessions.github.io/posts/2018/05/dedicate-window/</link>
+      <pubDate>Thu, 10 May 2018 10:50:01 -0400</pubDate>
+      
+      <guid>https://temporaryobsessions.github.io/posts/2018/05/dedicate-window/</guid>
+      <description>&lt;p&gt;Sometimes it&#39;s handy to &#34;&lt;a href=&#34;https://www.gnu.org/software/emacs/manual/html_node/elisp/Dedicated-Windows.html&#34; title=&#34;dedicate&#34;&gt;dedicate&lt;/a&gt;&#34; a window with Emacs, which means that only the current buffer is displayed in that window, which is usually in its own frame on a multi-window display. It is still possible to split the window for another buffer to be shown.&lt;/p&gt;
+
+&lt;p&gt;Sometimes I use this to keep around a window for a log of my work during the day. It&#39;s much more convenient if it doesn&#39;t get taken over by anything else.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s a handy function to make a window dedicated, or to &#34;undedicate&#34; it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-emacs-lisp&#34;&gt;(defun dedicate-window (&amp;amp;optional arg)
+  &amp;quot;Set current window to be dedicated.
+With prefix ARG, undedicate it.&amp;quot;
+  (interactive &amp;quot;P&amp;quot;)
+  (set-window-dedicated-p (get-buffer-window (current-buffer)) (not arg))
+  (message (if arg
+               &amp;quot;Window &#39;%s&#39; is normal&amp;quot;
+             &amp;quot;Window &#39;%s&#39; is dedicated&amp;quot;)
+           (current-buffer)))
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Why bother knowing things when you can google them?</title>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Keeping on blogging</title>
+	
+	<meta name="description" content="">
+	<meta name="image" content="">
+	
+	<meta itemprop="name" content="Keeping on blogging">
+	<meta itemprop="description" content="">
+	<meta itemprop="image" content="">
+	
+	<meta name="og:title" content="Keeping on blogging">
+	<meta name="og:description" content="">
+	
+	<meta name="og:url" content="https://temporaryobsessions.github.io/posts/2018/05/keep-on-blogging/">
+	<meta name="og:site_name" content="Keeping on blogging">
+	<meta name="og:type" content="article">
+	
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://temporaryobsessions.github.io/css/style.css">
+	
+	
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body>
+
+    <header>
+	
+	<a href="https://temporaryobsessions.github.io/" style="float: left;color:#777;"><strong>Temporary Obsessions</strong></a>
+	
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://temporaryobsessions.github.io/archives/" style="color:#777;"><strong>Archives</strong></a>
+	
+	
+	
+	<a href="https://temporaryobsessions.github.io/index.xml" style="color:#777;float: right;"><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></strong></a>
+    </header>
+
+
+<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
+<script>
+function fadeOut(el) {
+  el.style.opacity = 1;
+
+  var last = +new Date();
+  var tick = function() {
+    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
+    last = +new Date();
+    
+
+    if (el.style.opacity > 0) {
+      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+    } else {
+      el.style.display='none';
+    }
+  };
+
+  tick();
+}
+
+function ready(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+         el = document.getElementById('loadingMask');
+         fadeOut(el);
+        var elements = document.querySelectorAll("img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("alt")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("alt"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+
+    } else {
+        document.addEventListener('DOMContentLoaded', fn);
+    }
+}
+window.onload = ready;
+</script>
+
+<div class="content">
+  <h1>Keeping on blogging <aside></aside></h1>
+  <p>There are (at least) two topics that I generally want to avoid on this blog: politics and the act of blogging. I'm going to violate the second of those two rules today and try not to do it again. At least not much.</p>
+
+<p>Over the past week, I haven't been enjoying writing the blog very much. My goal has been to blog every day, and I missed a few days. The point of this blog is the discipline of writing it every day. Besides feeling bad about missing the days, I frequently don't enjoy it. I'm not writing the kinds of things I want to write. I don't like the daily pressure of "what am I going to say today". The posts aren't as good as I want.</p>
+
+<p>XXX It feels like I'm in The Dip, as described by Seth Godin. The initial excitement has worn off, and the grind is hard. In The Dip, you can quit, or you can keep going. The trick, as Seth points out, is to figure out which is the right choice, because there are times and projects where either one might be right. It's not always true that you should stick it out--but often it is.</p>
+
+<p>One part of figuring it out is revisit the goal. For me, for this blog, the goal was the daily practice of writing a post. I wasn't very specific about for how long, but my rough idea was that I wanted to do it for long enough to have a real experience of doing it. So let's state it up front: the goal is to blog every day for a year. And I'm 33 posts in, over slightly more days. Not perfect, but a disaster either.</p>
+
+<p>In this case, the lesson of The Dip is to keep going. The goal has not been met, and the external situation hasn't changed in any relevant way. Instead of "I hate this" or "should I stop?", I can now start to think about how to fix the things about it that I don't like.</p>
+
+<ol>
+<li>Remind myself that I'm doing it for the practice. When you're practicing something every day, it's not going to be fun every day. And that's not really the point.</li>
+<li>I can change my writing process to leave more time for revision.</li>
+<li>I could rewrite posts later for practice doing that. The rules here are mine.</li>
+<li>I could use writing prompts to generate ideas. The goal is writing, not covering a theme.</li>
+<li>I could organize my own scattered ideas list so I can refer to them easily.</li>
+<li>I could write about politics when I feel like it, even though I wanted to stay away from that. That's still my preference, but here in 2018 it seems nearly impossible to avoid politics.</li>
+<li>I can revise and polish posts from here to use on a more thematic blog.</li>
+<li>I could use more writing from other projects as posts here, which combines some writing practice.</li>
+<li>I could try everything on this list.</li>
+<li>I could write down anecdotes I like to tell.</li>
+<li>I could stop worrying about missing a day from time to time when it is busy with scheduled activities or deadlines. One of my favorite pieces of advice about developing habits is "dont' miss twice in a row".</li>
+</ol>
+
+<p>Confronting The Dip can be valuable, helping you to reconnect with what you are doing, why, when it makes sense to continue, and how to fix the things that are bothering you about it.</p>
+
+</div>
+
+
+
+
+<footer>
+	<p>© 2017-2018, all rights reserved.</a>
+</footer>
+</body>
+</html>
